@@ -115,6 +115,10 @@
     justify-content: center;
 }
 
+.justify-right{
+    justify-content: right;
+}
+
 .justify-start {
     justify-content: flex-start;
 }
@@ -307,6 +311,9 @@
     padding: 10px;
     color: white;
 }
+.bg{
+    background-color: rgb(193, 175, 175);;
+}
 
 .bg-black {
     background-color: rgba(0, 0, 0, 0.308);
@@ -362,7 +369,7 @@
     padding: 8px 15px;
 }
 
-.btn-realisation {
+.btn-creation {
     background-color: #b79e89;
     text-decoration: none;
     border-radius: 6px;
@@ -446,7 +453,7 @@ h4 {
 }
 
 
-.bg-envoyez {
+.bg-marron {
     background-color: #D8935C;
     cursor: pointer;
 }
@@ -475,6 +482,10 @@ h4 {
     font-size: 25px;
 }
 
+.para-pjt2{
+    font-size: 50px;
+}
+
 .radius {
     border-radius: 15px;
 }
@@ -486,8 +497,8 @@ h4 {
  ---------------------------------*/
 
 
-.i-brown {
-    color: #D8935C;
+.i-white {
+    color: #eae6e3;
     font-size: 40px;
 }
 
@@ -509,20 +520,14 @@ ul {
     font-size: 25px;
 }
 
-/* ------------------------------
-         HERO PREMIERE IMAGE
- ---------------------------------*/
-
-
-.hero {
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 20px;
-}
-
 /*map*/
 
 .map {
     width: 100px;
     height: 100px;
     font-size: 25px;
+}
+
+.mar{
+    background-color: rgb(193, 175, 175);
 }
