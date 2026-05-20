@@ -73,11 +73,11 @@
     width: 20%;
 }
 
-.large-30{
+.large-30 {
     width: 30%;
 }
 
-.large-60{
+.large-60 {
     width: 60%;
 }
 
@@ -115,7 +115,7 @@
     justify-content: center;
 }
 
-.justify-right{
+.justify-right {
     justify-content: right;
 }
 
@@ -261,23 +261,11 @@
 /* ------------------------------
             CONTAINER
  ---------------------------------*/
-
-.container-1000 {
-    max-width: 1000px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .container-1200 {
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    /*padding-left: 20px;
-    padding-right: 20px;*/
 }
 
 /* ------------------------------
@@ -306,13 +294,15 @@
 
 
 .bg-brown {
-    background-color: #D8935C;
+    background-color: #caae96;
     border-radius: 10px;
     padding: 10px;
     color: white;
 }
-.bg{
-    background-color: rgb(193, 175, 175);;
+
+.bg {
+    background-color: rgb(193, 175, 175);
+    ;
 }
 
 .bg-black {
@@ -337,13 +327,28 @@
             TYPOGRAPHIES
  ---------------------------------*/
 
- p {
-     font-family: "Manrope";
+p {
+    font-family:"Noto Sans Pahawh Hmong", sans-serif;
+}
+
+.noto-sans-serif{
+    font-family:"Noto Sans Pahawh Hmong", sans-serif;
+    font-size: 25px;
 }
 
 .typo-titres {
     font-family: "Cormorant Garamond";
 }
+
+.typo {
+    font-family: gabriela;
+
+}
+
+.time-roman-family {
+    font-family: 'Times New Roman';
+}
+
 
 /* ------------------------------
              BOUTONS
@@ -353,7 +358,7 @@
 .btn {
     background-color: #482c136c;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 14px;
     color: white;
     display: inline-block;
     padding: 8px 15px;
@@ -376,7 +381,11 @@
     color: white;
     display: inline-block;
     padding: 8px 15px;
-    
+
+}
+
+.btn-hero{
+    background-color: #D8935C;
 }
 
 /* ------------------------------
@@ -400,28 +409,29 @@ header {
 
 
 h1 {
-    font-size: 50px;
+    font-size: 34px;
     font-weight: 400;
-    font-style: "Cormorant Garamond"
+    font-family: "Noto Sans Pahawh Hmong", sans-serif;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 28px;
     font-style: inter;
     font-weight: semi bold;
-    font-family: "Cormorant Garamond";
+    font-family:"Noto Sans Pahawh Hmong", sans-serif;
 }
 
 h3 {
     font-style: "Andada Pro";
-    font-size: 60px;
+    font-family: "Noto Sans Pahawh Hmong", sans-serif;
+    font-size: 20px;
     padding-bottom: 32px;
 }
 
 h4 {
     color: white;
     text-align: center;
-    font-family: "Cormorant Garamond";
+    font-family: "Noto Sans Pahawh Hmong", sans-serif;
 }
 
 /* ------------------------------
@@ -430,11 +440,14 @@ h4 {
 
 
 .card {
-    background-color: rgba(197, 148, 14, 0.226);
+    background-color: rgba(197, 163, 113, 0.272);
     padding: 15px;
     width: 28%;
     border-radius: 15px;
-    font-family: "inter", sans-serif;
+    color: #998e85;
+    font-family: "Noto Sans Pahawh Hmong", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* ------------------------------
@@ -454,7 +467,7 @@ h4 {
 
 
 .bg-marron {
-    background-color: #D8935C;
+    background-color: #9f8c7d;
     cursor: pointer;
 }
 
@@ -465,7 +478,7 @@ h4 {
 .img-projet1 {
     width: 500px;
     height: 350px;
-    
+
 }
 
 .img-projet3 {
@@ -480,10 +493,10 @@ h4 {
 
 
 .para-pjt {
-    font-size: 25px;
+    font-size: 16px;
 }
 
-.para-pjt2{
+.para-pjt2 {
     font-size: 50px;
 }
 
@@ -529,11 +542,50 @@ ul {
     font-size: 25px;
 }
 
-.mar{
+.mar {
     background-color: rgb(193, 175, 175);
 }
 
-.imgpatisserie{
-     border-top-left-radius: 25px;
+.imgpatisserie {
+    border-top-left-radius: 25px;
     border-bottom-right-radius: 20px;
+}
+
+/*Swipper*/
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+@media (hover: hover) {
+  /* quand le survol est pris en charge */
+  a:hover {
+    color: white;
+    border-radius: 5px;
+    background: black;
+  }
+}
+
+
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(asset/photocover2.jpg) ;
+    background-position: bottom;
 }
