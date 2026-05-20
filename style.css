@@ -369,7 +369,7 @@
     padding: 8px 15px;
 }
 
-.btn-creation {
+.btn-realisation {
     background-color: #b79e89;
     text-decoration: none;
     border-radius: 6px;
@@ -465,6 +465,7 @@ h4 {
 .img-projet1 {
     width: 500px;
     height: 350px;
+    
 }
 
 .img-projet3 {
@@ -530,4 +531,9 @@ ul {
 
 .mar{
     background-color: rgb(193, 175, 175);
+}
+
+.imgpatisserie{
+     border-top-left-radius: 25px;
+    border-bottom-right-radius: 20px;
 }
